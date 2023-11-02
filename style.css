@@ -40,7 +40,7 @@ a {
 .right {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     flex: 1;
 }
 .right .title {
@@ -75,7 +75,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    gap: 30px;
+    gap: 50px;
     padding-bottom: 60px;
     justify-content: center;
     align-items: center;
@@ -87,6 +87,7 @@ a {
 }
 .container {
     display: flex;
+    gap: 30px;
 }
 .container .part {
     display: flex;
@@ -94,7 +95,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
 }
 .container img {
     height: 100px;
@@ -124,4 +125,37 @@ a {
 .third .credits {
     align-self: flex-end;
     font-weight: 700;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 150px;
+}
+.modal {
+    max-width: fit-content;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 60px;
+    color: #F9FAF8;
+    gap: 50px;
+}
+.modal .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+.modal .left .title {
+    font-weight: 700;
+}
+.modal .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal button {
+    border: 2px solid #F9FAF8;
 }
