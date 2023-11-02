@@ -102,3 +102,26 @@ a {
     border-radius: 10px;
     border: 2px solid #3882F6;
 }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 60px 150px;
+    justify-content: center;
+    align-items: center;
+}
+.third .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.third .quote {
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+}
+.third .credits {
+    align-self: flex-end;
+    font-weight: 700;
+}
