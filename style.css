@@ -34,6 +34,7 @@ a {
     display: flex;
     padding: 40px;
     gap: 30px;
+    padding-bottom: 60px;
     flex-direction: row;
 }
 .right {
@@ -68,4 +69,36 @@ a {
 .left img {
     min-width: 200px;
     min-height: 200px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.second .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.container {
+    display: flex;
+}
+.container .part {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
 }
